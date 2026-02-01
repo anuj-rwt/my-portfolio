@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anuj Rawat | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <button class="hamburger" id="menuBtn">☰</button>
+    <h1 class="logo">Anuj Rawat</h1>
+  </header>
+
+  <!-- Sidebar Menu -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>Menu</h2>
+      <button class="close-btn" id="closeBtn">✖</button>
+    </div>
+
+    <nav class="sidebar-links">
+      <a href="#home" class="nav-link">🏠 Home</a>
+      <a href="#learning" class="nav-link">📘 Learning</a>
+      <a href="#assignments" class="nav-link">📄 Assignments</a>
+
+      <div class="dropdown">
+        <button class="drop-btn" id="galleryBtn">🖼️ Gallery ▾</button>
+        <div class="drop-content" id="galleryMenu">
+          <a href="#resume" class="nav-link">📌 Resume</a>
+          <a href="#certifications" class="nav-link">🏅 Certifications</a>
+        </div>
+      </div>
+
+      <a href="#contact" class="nav-link">📞 Contact</a>
+    </nav>
+  </aside>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Main -->
+  <main class="container">
+
+    <!-- Home -->
+    <section class="section hero" id="home">
+      <div class="hero-left">
+        <h2>Hello, I'm <span class="highlight">Anuj Rawat</span> 👋</h2>
+        <p class="summary">
+          I am a B.Tech 1st year student (CSE AIML) at Graphic Era University.
+          I am learning DSA, Web Development and building projects to improve my skills.
+          I enjoy coding, problem solving, and creating useful applications.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn" href="#learning">View Learning</a>
+          <a class="btn btn-outline" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img src="profile.jpg.jpeg" alt="Anuj Profile Photo" class="profile-pic" />
+
+        <div class="video-box">
+          <h3>🎥 Self Introduction Video</h3>
+          <video controls>
+            <source src="intro.mp4" type="video/mp4" />
+            Your browser does not support video.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning -->
+    <section class="section" id="learning">
+      <h2>📘 Learnings (PESE Lab)</h2>
+      <p class="note">My daily learning summary from PESE practical lab.</p>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Day 1(07 Jan 2026)</h3>
+          <p>
+            In the first PESE lab, ma’am took self-introductions from students and guided us on speaking confidently.
+            She also introduced herself and explained how PESE will improve our communication and personality.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Day 2 (14 Jan 2026)</h3>
+          <p>
+            Ma’am explained the correct self-introduction format, what to include and what to avoid.
+            She also guided us on creating a portfolio website and shared the presentation topic for the next class.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Day 3 (21 Jan 2026)</h3>
+          <p>
+            We discussed profiling sheet questions such as career objectives, why I want to become an engineer,
+            projects, achievements, failures, strengths, and improvement areas. It helped me understand myself better.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Day 4 (28 Jan 2026)</h3>
+          <p>
+            In today’s PESE lab, we completed the remaining questions of the profiling sheet. After that, ma’am started
+            Unit 2 on Presentation Skills. She explained the primary and secondary objectives of a presentation and the
+            “what, why, and who” of presenting. She also shared content creation techniques, followed by a debate activity.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Assignments -->
+    <section class="section" id="assignments">
+      <h2>📄 Assignments</h2>
+      <p class="note">Click below to open my PDFs (Drive links / hosted files).</p>
+
+      <div class="cards">
+
+        <a class="card link-card" href="https://drive.google.com/file/d/1FZconMQ8I8gmS3IsY5PNvlgmxRWfOPLf/view?usp=sharing" target="_blank">
+          <h3>📌 Profiling Sheet PDF</h3>
+          <p>Open my profiling sheet document.</p>
+        </a>
+
+        <a class="card link-card" href="PASTE_YOUR_PDF_LINK_2" target="_blank">
+          <h3>📌 PESE Assignment PDF</h3>
+          <p>Open my PESE assignment file.</p>
+        </a>
+
+      </div>
+
+     
+    </section>
+
+    <!-- Resume -->
+    <section class="section" id="resume">
+      <h2>📌 Resume</h2>
+    
+      <div class="cards">
+        <a class="card link-card" href="PASTE_RESUME_LINK" target="_blank">
+          <h3>📄 View Resume</h3>
+          <p>Click to open my resume.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section" id="certifications">
+      <h2>🏅 Certifications</h2>
+      <p class="note">My certifications and achievements.</p>
+
+      <div class="cards">
+        <a class="card link-card" href="https://drive.google.com/file/d/1cfq7wCckz1gHNvocU-3SgQMq7nlgoRDR/view?usp=sharing" target="_blank">
+          <h3>🎓 Data Structures Using C Programming</h3>
+          <p>Click to view certificate.</p>
+        </a>
+
+        <a class="card link-card" href="https://drive.google.com/file/d/1TgLrtLVyiRy5QHc0PzYA-ae20TZu15uJ/view?usp=sharing" target="_blank">
+          <h3>🎓 AWS AI Practitioner learning Program</h3>
+          <p>Click to view certificate.</p>
+        </a>
+
+        <a class="card link-card" href="https://drive.google.com/file/d/171zk0kZgxcLR4MUJidOpCTAS1HnhH5-o/view?usp=sharing" target="_blank">
+          <h3>🎓 AWS Cloud Practitioner Essentials</h3>
+          <p>Click to view certificate.</p>
+        </a>
+        
+        <a class="card link-card" href="https://drive.google.com/file/d/1UNIKYnux0yfW1Nh0HL-Uo2GzykdzgRQ3/view?usp=sharing" target="_blank">
+          <h3>🎓 Fundamentals Of ML & AI</h3>
+          <p>Click to view certificate.</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <h2>📞 Contact Me</h2>
+      <p class="note">You can connect with me using the details below.</p>
+
+      <div class="contact-box">
+        <p><b>🌐 Website:</b> <span class="muted">Your GitHub Pages link here</span></p>
+        <p><b>🔗 LinkedIn:</b>
+          <a href="https://www.linkedin.com/in/anujrawat15/" target="_blank">
+            linkedin.com/in/anujrawat15
+          </a>
+        </p>
+        <p><b>📧 Email:</b> <a href="mailto:anujr4048@gmail.com">anujr4048@gmail.com</a></p>
+        <p><b>📱 Mobile:</b> +91 9528621773</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Anuj Rawat </p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
